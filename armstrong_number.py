@@ -1,6 +1,6 @@
 #Armstrong number
 #Armstrong number means sum of indivisal number cube of a number is equal the number
-number=input("Enter a number to check perfect or not : ")
+number=input("Enter a number to check Armstrong or not : ")
 if number.isdigit() and int(number)>0:
     sum=0
     for i in number:
